@@ -1,0 +1,24 @@
+{
+    "name": "immeyti/fast-ticket",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mehdi Samirakh",
+            "email": "mehdi.samirakh68@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Immeyti\\FastTicket\\FastTicketServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Immeyti\\FastTicket\\": "src/"
+        }
+    }
+}
