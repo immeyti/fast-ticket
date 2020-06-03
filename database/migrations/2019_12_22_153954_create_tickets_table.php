@@ -18,6 +18,7 @@ class CreateTicketsTable extends Migration
             $table->string('title');
             $table->text('description');
             $table->unsignedBigInteger('priority');
+
             $table->softDeletes();
             $table->timestamps();
         });
